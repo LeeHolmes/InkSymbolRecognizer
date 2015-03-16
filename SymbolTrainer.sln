@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolTrainer", "SymbolTrainer.csproj", "{6B1FA69A-9B21-4014-8928-B424C9E82442}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolTester", "SymbolTester\SymbolTester.csproj", "{6D0D0855-4183-4B4F-B8F4-067A863B40FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6B1FA69A-9B21-4014-8928-B424C9E82442}.Debug.ActiveCfg = Debug|.NET
+		{6B1FA69A-9B21-4014-8928-B424C9E82442}.Debug.Build.0 = Debug|.NET
+		{6B1FA69A-9B21-4014-8928-B424C9E82442}.Release.ActiveCfg = Release|.NET
+		{6B1FA69A-9B21-4014-8928-B424C9E82442}.Release.Build.0 = Release|.NET
+		{6D0D0855-4183-4B4F-B8F4-067A863B40FB}.Debug.ActiveCfg = Debug|.NET
+		{6D0D0855-4183-4B4F-B8F4-067A863B40FB}.Debug.Build.0 = Debug|.NET
+		{6D0D0855-4183-4B4F-B8F4-067A863B40FB}.Release.ActiveCfg = Release|.NET
+		{6D0D0855-4183-4B4F-B8F4-067A863B40FB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
